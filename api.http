@@ -1,0 +1,23 @@
+GET http://localhost:3333/tasks
+
+###
+POST http://localhost:3333/task
+Content-Type: application/json
+
+{
+  "title": "OII"
+}
+
+###
+GET http://localhost:3333/tasks/1
+
+###
+PUT http://localhost:3333/tasks/5
+Content-Type: application/json
+
+{
+  "title": "Estudar React"
+}
+
+###
+DELETE http://localhost:3333/tasks/1
